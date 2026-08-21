@@ -10,7 +10,7 @@ The Undead Legacy game files are downloaded from their original upstream sources
 
 This is a community-maintained Pterodactyl egg. It is not affiliated with or endorsed by The Fun Pimps, Subquake, Undead Legacy, BepInEx, or Pterodactyl.
 
-7 Days to Die and its associated trademarks belong to their respective owners. Undead Legacy and its assets belong to Subquake and remain subject to the mod author’s terms of use.
+Undead Legacy and its assets belong to Subquake and remain subject to the mod author’s terms of use.
 
 This egg automates installation from upstream sources. It does not grant permission to redistribute Undead Legacy assets.
 

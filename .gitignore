@@ -1,0 +1,5 @@
+# This repository publishes only the import-ready Pterodactyl egg.
+/*
+!/.gitignore
+!/7-days-to-die-undead-legacy.json
+!/README.md

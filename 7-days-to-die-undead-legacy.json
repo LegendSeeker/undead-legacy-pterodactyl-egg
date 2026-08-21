@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2026-08-21T19:51:40.995Z",
+    "exported_at": "2026-08-21T20:12:13.896Z",
     "name": "7 Days To Die - Undead Legacy",
     "author": "undeadlegacy@example.com",
     "description": "7 Days to Die dedicated server for Linux x86_64 with the verified Undead Legacy 2.7.13 payload and BepInEx 5.4.23.5 Linux Doorstop loader.\r\n\r\nThe game is pinned to Steam branch v2.6 and the UL archives are pinned by commit and SHA-256. Reinstall repairs the pinned release; import a newer revision of this egg and reinstall to update UL. Players must select the v2.6 Steam beta branch on their client.\r\n\r\nPlan for at least a 40 GiB server disk allocation and 20 GiB of free headroom before reinstalling. Optional archive caching retains approximately 6.5 GiB after installation.",
