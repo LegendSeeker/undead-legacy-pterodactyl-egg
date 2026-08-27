@@ -1,5 +1,19 @@
-# This repository publishes only the import-ready Pterodactyl egg.
+# Publish the import-ready egg and its reproducible maintainer tooling.
 /*
 !/.gitignore
 !/7-days-to-die-undead-legacy.json
 !/README.md
+!/AGENTS.md
+!/CONTEXT.md
+!/release-manifest.json
+!/.agents/
+!/.agents/skills/
+!/.agents/skills/update-undead-legacy-egg/
+!/.agents/skills/update-undead-legacy-egg/**
+!/docs/
+!/docs/agents/
+!/docs/agents/**
+!/src/
+!/src/**
+!/tests/
+!/tests/**
