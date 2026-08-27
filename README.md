@@ -14,7 +14,7 @@ Undead Legacy is not just a folder placed in a normal 7 Days to Die server. It n
 
 1. It installs the **7 Days to Die dedicated server** through SteamCMD, pinned to the Steam `v2.6` beta branch. This matters because the included Undead Legacy release is built for that game version. The installer validates the Steam files and retries SteamCMD once if the first download attempt fails.
 
-2. It downloads the two upstream Undead Legacy archives that make up the supported 2.7.16 release: Experimental Part 1 and Experimental Part 2. The official `2.7.15–2.7.16` patch is optional and is skipped by default for fresh 2.7.16 installs; set `UL_APPLY_PATCH=1` when that incremental patch is needed. Each source revision and SHA-256 checksum is pinned in the egg. In plain terms, it will only install the exact files this egg was tested with; a partial download, changed file, or corrupted archive stops the installation instead of producing a subtly broken server.
+2. It downloads the two upstream Undead Legacy archives that make up the supported 2.7.17 release: Experimental Part 1 and Experimental Part 2. The official `2.7.15–2.7.17` patch is optional and is skipped by default for fresh 2.7.17 installs; set `UL_APPLY_PATCH=1` when updating an existing 2.7.15 or 2.7.16 installation. Each source revision and SHA-256 checksum is pinned in the egg. In plain terms, it will only install the exact files this egg was tested with; a partial download, changed file, or corrupted archive stops the installation instead of producing a subtly broken server.
 
 3. It extracts those archives into a temporary staging area and overlays the complete result onto the server directory. Before doing that, it confirms that the essential Undead Legacy mod metadata and the `BepInEx` directory are present.
 
@@ -41,9 +41,9 @@ The egg does not start `7DaysToDieServer.x86_64` directly. It runs the generated
 
 ### Reinstalling, updating, and disk space
 
-Use **Reinstall** to repair this exact supported combination of 7 Days to Die `v2.6`, Undead Legacy `2.7.16`, and BepInEx/Doorstop. The egg intentionally disables changing the game's Steam branch through normal update settings: changing it independently could make the game and mod incompatible.
+Use **Reinstall** to repair this exact supported combination of 7 Days to Die `v2.6`, Undead Legacy `2.7.17`, and BepInEx/Doorstop. The egg intentionally disables changing the game's Steam branch through normal update settings: changing it independently could make the game and mod incompatible.
 
-By default, downloaded Undead Legacy archives are deleted after they are verified and installed. Set `UL_KEEP_CACHE=1` only if you want to retain the verified, release-specific archives for faster reinstalls; it consumes about 6.5 GiB of persistent disk space. Plan for at least 40 GiB of server disk space and roughly 20 GiB free space before a reinstall, because the installer needs room for the game, downloads, and a temporary staged copy of the mod. `UL_APPLY_PATCH` defaults to `0`; enable it only when the 2.7.15-to-2.7.16 incremental patch is required.
+By default, downloaded Undead Legacy archives are deleted after they are verified and installed. Set `UL_KEEP_CACHE=1` only if you want to retain the verified, release-specific archives for faster reinstalls; it consumes about 6.5 GiB of persistent disk space. Plan for at least 40 GiB of server disk space and roughly 20 GiB free space before a reinstall, because the installer needs room for the game, downloads, and a temporary staged copy of the mod. `UL_APPLY_PATCH` defaults to `0`; enable it only when updating from 2.7.15 or 2.7.16 with the 2.7.15-to-2.7.17 incremental patch. The 2.7.17 release requires a new game when saves are from 2.7.15 or older.
 
 Players must also select the Steam `v2.6` beta branch in their 7 Days to Die client so that their game version matches the server.
 
