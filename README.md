@@ -1,6 +1,6 @@
 ## Distribution
 
-This repository distributes only the importable Pterodactyl egg:
+This repository distributes an importable Pterodactyl egg:
 
 - `7-days-to-die-undead-legacy.json`
 
